@@ -9,7 +9,6 @@ var sourcemaps = require('gulp-sourcemaps');
 var sass = require('gulp-sass');
 var minifyCSS = require('gulp-minify-css');
 var watch = require('gulp-watch');
-var glob = require('glob');
 
 var getBundleName = function () {
   var version = require('./package.json').version;
